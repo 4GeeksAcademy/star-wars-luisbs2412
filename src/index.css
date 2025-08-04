@@ -1,0 +1,11 @@
+.overflow-x-auto::-webkit-scrollbar {
+  height: 8px;
+}
+.overflow-x-auto::-webkit-scrollbar-thumb {
+  background-color: #0ad7f1;
+  border-radius: 4px;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
