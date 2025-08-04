@@ -4,7 +4,7 @@ import useGlobalReducer from '../hooks/useGlobalReducer';
 import personajes from "../assets/img/characters.jpeg";
 
 
-const Personajes= () => {
+const Personajes = () => {
     const [peoples, setPeoples] = useState([])
     const { store, dispatch } = useGlobalReducer();
 
